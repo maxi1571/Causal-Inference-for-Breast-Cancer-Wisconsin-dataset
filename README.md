@@ -66,7 +66,7 @@ The causality.py script is the one that was used to make the graph. Jaccard's im
 examine the sustainability of the association between the independent variables within the graph.
 
 
-### data exploration insights
+### Analysis insights
 
   * There are 569 occurrences in all, with 32 properties.
   * Malignant and Benign are the only two distinct values in the Diagnosis Columns 
