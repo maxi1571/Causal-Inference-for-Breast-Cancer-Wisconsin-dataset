@@ -62,7 +62,8 @@ Data can be found: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wiscons
 
 ### Scripts
 
-
+The causality.py script is the one that was used to make the graph. Jaccard's important antecedent is used to 
+examine the sustainability of the association between the independent variables within the graph.
 
 
 ### data exploration insights
