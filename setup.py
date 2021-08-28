@@ -27,15 +27,15 @@ setup(
         'Programming Language :: Python :: 3.9',
     ],
 <<<<<<< HEAD
-    description="Machine learning approcah & fb prophet for rossman sales prediction",
+    description="Causal Inference using casualnex libary",
 =======
-    description="Pharmaceutical-Sales-prediction-across-multiple-stores",
+    description="Causal Inference using brest cancer dataset",
 >>>>>>> 37ba6b4e78d9131bc302bf58c3c2528de0e74e52
     install_requires=requirements,
     long_description=readme,
     include_package_data=True,
-    keywords='scripts,sales prediction',
-    name='pharmaceutical-sales-prediction',
+    keywords='scripts, casuality',
+    name='Causal-Inference-for-Breast-Cancer-Wisconsin-dataset',
     packages=find_packages(include=['scripts', 'scripts.*']),
     test_suite='Tests',
     tests_require=test_requirements,
