@@ -40,21 +40,24 @@ Data can be found: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wiscons
 
 #### Categorical variables 
 
-* Diagnosis(Malignant / benign)
+      * Diagnosis(Malignant / benign)
 
 #### Continuous variables
 
-* the circumference (mean of distances from the center to points on the perimeter)
-* the concavity (severity of concave portions of the contour)
-* points that are concave (number of concave portions of the contour)
-* fractal dimension of symmetry (“coastline approximation” — 1)
-* the texture (standard deviation of gray-scale values)
-* Perimeter\s area
-* suppleness (local variation in radius lengths)
-* compactness (area2 / perimeter2 — 1.0)
+      * the circumference (mean of distances from the center to points on the perimeter)
+      * the concavity (severity of concave portions of the contour)
+      * points that are concave (number of concave portions of the contour)
+      * fractal dimension of symmetry (“coastline approximation” — 1)
+      * the texture (standard deviation of gray-scale values)
+      * Perimeter\s area
+      * suppleness (local variation in radius lengths)
+      * compactness (area2 / perimeter2 — 1.0)
 
 ### Notebooks
 
+- The notebook contains
+* A bivariate relationship between the variables.
+* A casual graph implemenation of the data 
 
 
 ### Scripts
@@ -64,17 +67,17 @@ Data can be found: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wiscons
 
 ### data exploration insights
 
-* There are 569 occurrences in all, with 32 properties.
+  * There are 569 occurrences in all, with 32 properties.
+  * Malignant and Benign are the only two distinct values in the Diagnosis Columns 
+  * Correlations between dataset have lots of negative correlations and correlation under the values of 
+  * 0.5 which creates ambiguity.
+  * There are many negative correlations in this dataset .There are many attributes
+    with correlation under less than 0.5.
+  * A value of 0.91 is achieved by incrementing the data by 10%. But we need a value of 1 to have a stable
+    graph that can give us a better output. 
+  * The accuracy value found shows that the graph isn’t stable and we need an additional data set to
+    determine the significance of the causal graph correlation.
 
-* Malignant and Benign are the only two distinct values in the Diagnosis Columns.
-
-* Diagnosis, Radius_mean, perimeter_mean, Concavity_mean, points_mean, perimeter_worst,area_worst,radius_se, area_mean, compactness_mean, perimeter_se, area_se,radius_worst, compactness_worst,concavity_worst, concave points_worst are the highly correlated columns.
-
-* Correlations between dataset have lots of negative correlations and correlation under the values of 0.5 which creates ambiguity.
-
-* The displots shows, the radius mean,texture mean, perimeter mean, area mean, smoothness mean, compactness mean, concavity mean, concave points mean, symmetry mean and the fractal dimension mean significantly vary in the different types of tumors.
-
-* There are many negative correlations in this dataset .There are many attributes with correlation under less than 0.5.
 
 ### Technologies used
 
