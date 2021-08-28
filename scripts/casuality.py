@@ -84,13 +84,3 @@ class casuality:
 
         return sm_final
 
-    def visualization(self, sm_final):
-
-        viz = plot_structure(
-            sm_final,
-            graph_attributes={"scale": "1.3"},
-            all_node_attributes=NODE_STYLE.WEAK,
-            all_edge_attributes=EDGE_STYLE.WEAK)
-
-        Image(viz.draw(format='png'))
-
